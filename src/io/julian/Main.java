@@ -2,6 +2,7 @@ package io.julian;
 
 import io.julian.core.Algorithm;
 import io.julian.impl.basics.SieveOfErasthenoses;
+import io.julian.impl.basics.strings.IndexOf;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +16,7 @@ public class Main {
 
     static {
         algorithmHashMap.put(1, new SieveOfErasthenoses());
+        algorithmHashMap.put(2, new IndexOf());
     }
 
 
